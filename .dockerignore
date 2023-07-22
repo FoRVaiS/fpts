@@ -1,0 +1,14 @@
+# Git
+.git/
+.gitignore
+
+# Node/Npm
+node_modules/
+
+# VSCode
+.vscode/
+.devcontainer/
+
+# Local Configuration/Environment
+.env
+config/local-*

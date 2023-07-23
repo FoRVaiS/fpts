@@ -14,7 +14,8 @@
     "noImplicitOverride": true,
     "paths": {
       "!/*": ["src/*"],
-      "!list/*": ["src/list/*"]
+      "!list/*": ["src/list/*"],
+      "!utils/*": ["src/utils/*"]
     }
   },
   "include": ["src/**/*.ts", "__tests__/**/*.ts"],

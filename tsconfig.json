@@ -12,7 +12,10 @@
     "noImplicitReturns": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-    "paths": {}
+    "paths": {
+      "!/*": ["src/*"],
+      "!list/*": ["src/list/*"]
+    }
   },
   "include": ["src/**/*.ts", "__tests__/**/*.ts"],
   "exclude": ["node_modules/"]
